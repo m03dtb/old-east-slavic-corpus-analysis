@@ -6,11 +6,15 @@ venv/
 
 # generated data / outputs
 OUTPUTS/
+source_data/
+VERBS_BY_TYPE/
 *.csv
 *.png
 
 # OS
 .DS_Store
+
+
 
 # Personal files
 scan_git_hist.sh
