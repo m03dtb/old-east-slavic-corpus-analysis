@@ -39,9 +39,9 @@ Core processing logic is implemented in reusable Python modules (`02/utils/`),
 while notebooks are used for orchestration and exploration.
 
 ## Repository Structure
-01/    # Data acquisition and preprocessing
-02/    # Feature engineering and linguistic analysis
-02/utils/    # Reusable Python modules
+- 01/    # Data acquisition and preprocessing
+- 02/    # Feature engineering and linguistic analysis
+- 02/utils/    # Reusable Python modules
 
 ## How to run
 The setup assumes a Unix-like environment (macOS or Linux) and Jupyter Lab being installed. On Windows, WSL2 is recommended.
