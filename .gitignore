@@ -1,0 +1,16 @@
+# virtual environment
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# generated data / outputs
+OUTPUTS/
+*.csv
+*.png
+
+# OS
+.DS_Store
+
+# Personal files
+scan_git_hist.sh

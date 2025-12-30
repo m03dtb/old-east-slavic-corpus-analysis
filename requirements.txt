@@ -1,0 +1,6 @@
+ipykernel
+numpy
+pandas
+pyyaml
+requests
+tqdm

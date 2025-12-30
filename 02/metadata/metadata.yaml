@@ -1,0 +1,479 @@
+afnik:
+- title: '*'
+  century: 15/2
+  exact: 
+  lang: OR
+  author: Afanasij Nikitin
+  place: Tver
+avv:
+- title: '*'
+  author: Avvakum
+  century: 17/2
+  exact: '1672-1675'
+  lang: OR
+  author: Avvakum, Erzpriester
+  style:
+  - high
+  - coll
+  - vernac
+  place: Moscow
+birchbark:
+- title: '9'
+  exact: 1160‒1180
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '43'
+  exact: 1380‒1400
+  century: '14'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '109'
+  exact: 1100‒1120
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '142'
+  exact: 1300‒1320
+  century: '14'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '247'
+  exact: 1025‒1050
+  century: '11'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '424'
+  exact: 1100‒1120
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '497'
+  exact: 1340‒1360
+  century: '14'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '502'
+  exact: 1180‒1200
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '902'
+  exact: 1100‒1120
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '105'
+  exact: 1160‒1180
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '160'
+  exact: 1140‒1160
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '238'
+  exact: 1100‒1120
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '439'
+  exact: 1200‒1220
+  century: '13'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '421'
+  exact: 1120‒1140
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '531'
+  exact: 1200‒1220
+  century: '13'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '605'
+  exact: 1100‒1120
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '644'
+  exact: 1100‒1120
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '682'
+  exact: 1160‒1180
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '705'
+  exact: 1200‒1220
+  century: '13'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '731'
+  exact: 1160‒1180
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '745'
+  exact: 1100‒1120
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '752'
+  exact: 1100‒1120
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '775'
+  exact: 1280‒1300
+  century: '13'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '776'
+  exact: 1140‒1160
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '834'
+  exact: 1140‒1160
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '912'
+  exact: 1050‒1075
+  century: '11'
+  lang: 'birchbark'
+  place: Novgorod
+- title: Psk. 6
+  exact: 1260‒1280
+  century: '13'
+  lang: 'birchbark'
+  place: Pskov
+- title: Svints. 1
+  place: Unknown
+  century: '12'
+  lang: 'birchbark'
+  place: Unknown
+- title: St. R. 10
+  exact: 1160‒1180
+  century: '12'
+  lang: 'birchbark'
+  place: Staraja_Russa
+- title: St. R. 35
+  exact: 1140‒1160
+  century: '12'
+  lang: 'birchbark'
+  place: Staraja_Russa
+- title: '49'
+  exact: 1410‒1420
+  century: '15'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '154'
+  exact: 1420‒1430
+  century: '15'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '361'
+  exact: 1380‒1400
+  century: '14'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '363'
+  exact: 1380‒1400
+  century: '14'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '364'
+  exact: 1380‒1400
+  century: '14'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '370'
+  exact: 1360‒1380
+  century: '14'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '717'
+  exact: 1160‒1180
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '724'
+  exact: 1160‒1180
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '725'
+  exact: 1180‒1200
+  century: '12'
+  lang: 'birchbark'
+  place: Novgorod
+- title: '765'
+  exact: 1240‒1260
+  century: '13'
+  lang: 'birchbark'
+  place: Novgorod
+const:
+- title: The foundation of Constantinople in Byzantium
+  title_ru: Skazanie o padenii Konstantinopolja
+  century: 15
+  lang: EastSlavic
+  place: Byzantine_Empire
+- title: The foundation of Constantinople by Emperor Constantine
+  century: 15
+  lang: EastSlavic
+  place: Byzantine_Empire
+- title: The omen
+  century: 15
+  lang: EastSlavic
+  place: Byzantine_Empire
+- title: The tale of the fall of Constantinople
+  title_ru: Povest' o vzjatii Car'grada 
+  century: 15/2
+  lang: EastSlavic
+  place: Byzantine_Empire
+- title: A terrible omen
+  century: 15
+  lang: EastSlavic
+  place: Byzantine_Empire
+- title: Another omen
+  century: 15
+  lang: EastSlavic
+  place: Byzantine_Empire
+domo:
+- title: '*'
+  author: unkown
+  century: 16
+  lang: OR
+  genre: household_manual
+  place: Moscow
+drac:
+- title: The Tale of Dracula
+  author: "attributed to Vlad III (uncertain)"
+  century: 15/2
+  exact: 1490
+  lang: EastSlavic
+  genre: folklore
+  place: NorthernRussia
+  notes: near Finnish border
+dux-grjaz:
+- title: Testament of Ivan Jurievich Grjaznoj
+  century: '16/2'
+  exact: '1579'
+  lang: OR 
+  place: Moscow
+kiev-hyp:
+- title: "6640"
+  author: unknown
+  century: 12
+  century_manuscript: 15
+  lang: OR
+  place: Kiev
+- title: "6641"
+  author: unknown
+  century: 12
+  century_manuscript: 15
+  lang: OR
+  place: Kiev
+- title: "6642"
+  author: unknown
+  century: 12
+  century_manuscript: 15
+  lang: OR
+  place: Kiev
+- title: "6643"
+  author: unknown
+  century: 12
+  century_manuscript: 15
+  lang: OR
+  place: Kiev
+lav:
+- title: '*'
+  author: unknown
+  century: 12
+  century_manuscript: 14
+  exact: 1377
+  lang: OR
+  place: Nizhny_Novgorod
+luk-koloc:
+- title: '*'
+  author: unknown
+  century: 15
+  lang: EastSlavic
+  genre: epic_poem
+  place: Pskov
+mst:
+- title: '*'
+  author: unknown
+  century: 12
+  century_manuscript: 12
+  exact: 1130
+  lang: OR
+  genre: official_correspondence
+  place: Novgorod
+mstislav-col:
+- title: '*'
+  author: unknown
+  century: 12
+  lang: OR
+  genre: colophon
+  place: Novgorod
+nov-list:
+- title: '*'
+  author: S. V. Polekhov
+  century: 15
+  exact: 1409
+  lang: OR
+  genre: diplomatic_register
+  place: Novgorod
+nov-marg:
+- title: '*'
+  author: unknown
+  century: 13
+  century_manuscript: 13
+  lang: OR
+  genre: marginalia
+  place: Novgorod
+nov-sin:
+- title: '*'
+  place: Novgorod
+  source: Zanchi&Naccarato 2016, 363f, Tichomorov 1950, 4f.'
+  century: '13'
+  century_manuscript: '13'
+  lang: Novgorod
+novgorod-jaroslav:
+- title: Novgorod’s treaty with Grand Prince Jaroslav Jaroslavich, 1266
+  century: '13'
+  exact: '1266'
+  place: Novgorod
+  lang: Novgorod
+ostromir-col:
+- title: Colophon to the Ostromir Codex
+  exact: '1056'
+  century: '11'
+  century_manuscript: '11'
+  author: Diakon Grigorij 
+  lang: 'gospel'
+  place: Novgorod
+  template: greek version
+peter:
+- title: Letter 1 to Natalia Kirilovna
+  exact: '1689'
+  century: '17/2'
+  author: Peter I
+  lang: OR
+  place: Moscow 
+pskov:
+- title: '*' 
+  lang: OR
+  century: '15'
+  exact: ''
+  place: Moscow
+pskov-ivan:
+- title: Missive from Prince Ivan of Pskov
+  lang: Novgorod
+  century: '15'
+  exact: '1463–1465'
+  place: Pskov
+pvl-hyp:
+- title: '*'
+  lang: Novgorod
+  century: '12'
+  century_manuscript: '15'
+  exact: ''
+  place: Pskov
+rig-smol1281:
+- title: Missive from the Archbishop of Riga to the Prince of Smolensk
+  exact: '1281'
+  century: '13'
+  lang: contract
+  place: 'Latvia' 
+riga-goth:
+- title: The 1229 Treaty between Smolensk, Riga and Gotland
+  century: '13'
+  century_manuscript: '13'
+  exact: '1229'
+  author: Mstislav Davidovich
+  lang: 'OR'
+  place: 'Smolensk' # sprachlich ist Smolensk ausschlaggebend
+rusprav:
+- title: '*'
+  century: '12'
+  century_manuscript: '13'
+  lang: 'OR'
+  place: 'Kiev'
+schism:
+- title: Gerontij. February 13 1663
+  exact: '1663'
+  place: NorthernRussia
+  century: '17/2'
+  lang: 'OR'
+sergrad:
+- title: '*'
+  lang: 'Moscow' 
+  century: 15
+  exact: '1417'
+  century_manuscript: '16'
+  place: 'Moscow'
+smol-pol-lit:
+- title: Charter of Prince Jurij Svjatoslavich of Smolensk on the alliance with Poland and Lithuania, 1386
+  century: '14'
+  exact: '1386'
+  century_manuscript: '13'
+  lang: 'OR'
+  place: Smolensk # regio: Moscow
+spi:
+- title: The tale of Igor’s campaign
+  century: 12
+  place: 'Kiev'
+  lang: OR
+suz-lav:
+- text: '*'
+  century: '12'
+  century_manuscript: '12'
+  lang: 'OR'
+  place: 'Moscow'
+usp-sbor:
+- text: The Tale of Boris and Gleb *
+  century: '11'
+  century_manuscript: '12'
+  lang: 'OR'
+  place: Kiev
+- text: Life of Feodosij Pečerskij *
+  century: 11
+  place: Kiev
+  lang: 'OR'
+ust-vlad:
+- title: Statute of Prince Vladimir
+  century: '11'
+  century_manuscript: '13'
+  place: Kiev
+  exact: ''
+  lang: 'OR'
+  style: legal
+  source: Zabelina 2013, 9
+varlaam:
+- title: Varlaam’s donation charter to the Xutyn monastery
+  lang: 'OR'
+  source: Zanchi&Naccarato_2016_363f
+  century: '12'
+  century_manuscript: '12'
+  exact: '1192'
+  place: Novgorod
+vest-kur:
+- title: '*'
+  century: '17'
+  lang: 'EarlyRussian'
+  place: Moscow 
+zadon:
+- title: Zadonshchina
+  author: Sreznevskij
+  exact: ''
+  century: '14'
+  place: Moscow
+  lang: OR
