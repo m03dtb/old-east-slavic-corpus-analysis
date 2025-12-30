@@ -3,6 +3,7 @@ venv/
 
 # Jupyter
 .ipynb_checkpoints/
+__pycache__/
 
 # generated data / outputs
 OUTPUTS/
