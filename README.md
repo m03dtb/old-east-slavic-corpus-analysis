@@ -1,21 +1,30 @@
 # Old East Slavic Text Analysis Sample
 
 ## Overview
-This project implements a reproducible data analysis pipeline for Old East Slavic texts
-based on the TOROT Treebank.
-It focuses on extracting, normalizing, and analyzing morphological and syntactic features
-(e.g. verbs, negation, lemma normalization) from annotated XML sources.
+This project implements a reproducible corpus analysis pipeline for **Old East Slavic** texts
+based on the _TOROT Treebank_. The pipeline can be readily adapted to the **(Old) Church Slavonic**
+texts included in the treebank with only minor modifications.
+The pipeline focuses on extracting, normalizing, and analyzing morphological and syntactic features
+(e.g. verbs, negation, lemma normalization) from annotated XML sources,
+with a particular emphasis on compound tense constructions and auxiliary verb structures.
 
 ### Problems addressed
 #### Compound verbs
 Compound tenses cannot be reliably extracted from the `morphology` annotations of the XML
 source files, as auxiliary verbs and main verbs are annotated separately.
 The pipeline identifies auxiliary–main verb relations and assigns auxiliary verbs to
-their corresponding main verb recursively, enabling the analysis of compound tenses like the pluperfect tense etc.
+their corresponding main verb recursively, enabling the analysis of compound tense constructions (e.g. perfect, pluperfect).
 
 #### Negation
-The analysis identifies and marks negated verbs, making verbal negation explicitly
+The analysis identifies and marks negated main and auxiliary verbs, making verbal negation explicitly
 available for downstream analysis.
+
+#### Pseudo-Aspect
+Prefixes and suffixes are used as heuristic cues to approximate verbal aspect, e.g.:
+- Verbal suffixes:
+  - {-yva-} → secondary imperfectivization
+  - {-nu-} → semelfactive derivation
+- Verbal prefixes (including graphematic variants)
 
 #### Metadata
 An exemplary metadata file illustrates how the XML source files can be combined with
@@ -33,15 +42,34 @@ Data download and preprocessing are handled in `01/00_download_data.ipynb`.
 1. Data download and XML preprocessing
 2. Conversion of XML annotations to Pandas DataFrames
 3. Morphological feature extraction and normalization
-4. Linguistic analysis (e.g. verbs, negation, verb–verb combinations)
-
-Core processing logic is implemented in reusable Python modules (`02/utils/`),
-while notebooks are used for orchestration and exploration.
+4. Rule-based extraction of morphosyntactic patterns  
+   (e.g. auxiliary chains, negation, verb–verb combinations)
+5. Query-based evaluation of tense and verbal constructions
 
 ## Repository Structure
-- 01/    # Data acquisition and preprocessing
-- 02/    # Feature engineering and linguistic analysis
-- 02/utils/    # Reusable Python modules
+- `01/` – Data acquisition and preprocessing
+- `02/` – Feature engineering and linguistic analysis
+- `02/utils/` – Reusable Python modules
+
+### Query Interface
+The notebook `02/7_Evaluate_Tempus.ipynb` provides a flexible query interface
+that allows users to filter verbs in simple and compound tenses based on
+morphological features and auxiliary verb configurations.
+
+- Example: retrieve compound tense constructions with two auxiliary verbs:
+```python
+```
+```python
+find_forms(
+    df_verbs,
+    MAIN_MORPH={"tense": "s"},  # main verb in the resultative
+    AUX_LEMMAS=["быти", "быти"], # auxiliary lemmas
+    AUX_MORPH=[
+        {"tense": "p"},  # auxiliary in the present tense
+        {"tense": "s"}   # auxiliary in the resultative
+    ]
+)
+```
 
 ## How to run
 The setup assumes a Unix-like environment (macOS or Linux) and Jupyter Lab being installed. On Windows, WSL2 is recommended.
@@ -55,11 +83,11 @@ jupyter lab .
 
 
 Select the kernel: 
-Python (OES)
+**Python (OES)**
 
 The notebooks must be executed in consecutive order:
 - 01/:notebooks 00-02 
-- 02/:notebooks 1-6
+- 02/:notebooks 1-7
 
 ## Metadata
 The file `02/metadata/metadata.yaml` contains curated metadata for the analyzed texts.
