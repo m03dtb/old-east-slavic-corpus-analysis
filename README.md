@@ -56,20 +56,19 @@ The notebook `02/7_Evaluate_Tempus.ipynb` provides a flexible query interface
 that allows users to filter verbs in simple and compound tenses based on
 morphological features and auxiliary verb configurations.
 
-- Example: retrieve compound tense constructions with two auxiliary verbs:
-```python
-```
+Example: retrieve compound tense constructions with two auxiliary verbs:
+
 ```python
 find_forms(
     df_verbs,
     MAIN_MORPH={"tense": "s"},  # main verb in the resultative
-    AUX_LEMMAS=["быти", "быти"], # auxiliary lemmas
+    AUX_LEMMAS=["быti", "быти"],  # auxiliary lemmas
     AUX_MORPH=[
         {"tense": "p"},  # auxiliary in the present tense
         {"tense": "s"}   # auxiliary in the resultative
     ]
 )
-```
+
 
 ## How to run
 The setup assumes a Unix-like environment (macOS or Linux) and Jupyter Lab being installed. On Windows, WSL2 is recommended.
