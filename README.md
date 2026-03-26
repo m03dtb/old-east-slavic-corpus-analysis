@@ -62,7 +62,7 @@ Example: retrieve compound tense constructions with two auxiliary verbs:
 find_forms(
     df_verbs,
     MAIN_MORPH={"tense": "s"},  # main verb in the resultative
-    AUX_LEMMAS=["быti", "быти"],  # auxiliary lemmas
+    AUX_LEMMAS=["быти", "быти"],  # auxiliary lemmas
     AUX_MORPH=[
         {"tense": "p"},  # auxiliary in the present tense
         {"tense": "s"}   # auxiliary in the resultative
