@@ -86,7 +86,7 @@ Select the kernel:
 **Python (OES)**
 
 The notebooks must be executed in consecutive order:
-- 01/:notebooks 00-02 
+- 01/:notebooks 1-3 
 - 02/:notebooks 1-7
 
 ## Metadata
