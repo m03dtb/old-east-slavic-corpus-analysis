@@ -36,7 +36,7 @@ Primary data source:
   https://github.com/torottreebank/treebank-releases/releases
   License: CC BY-NC-SA 3.0
 
-Data download and preprocessing are handled in `01/00_download_data.ipynb`.
+Data download and preprocessing are handled in `01/1_Download_data.ipynb`.
 
 ## Analysis Pipeline
 1. Data download and XML preprocessing
@@ -52,7 +52,7 @@ Data download and preprocessing are handled in `01/00_download_data.ipynb`.
 - `02/utils/` – Reusable Python modules
 
 ### Query Interface
-The notebook `02/7_Evaluate_Tempus.ipynb` provides a flexible query interface
+The notebook `02/7_Evaluate_Tense.ipynb` provides a flexible query interface
 that allows users to filter verbs in simple and compound tenses based on
 morphological features and auxiliary verb configurations.
 
